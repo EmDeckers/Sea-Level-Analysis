@@ -1,4 +1,4 @@
 # Sea-Level-Analysis
-Predicting sea levels in the year 2050
+Predicting Sea Levels In The Year 2050
 
 In this project, I use data containing global average sea levels from the years 1880-2013 to predict global average sea levels in the year 2050. This project took me several weeks to complete as I went through many trial and error processes. Initially, I used a stochastic gradient descent method on the CSIRO data which produced inaccurate and very far-off results. I then tried Numpy's polyfit method to fit the data to a second order polynomial equation which produced a better result, but still not the one I was looking for. I finally decided to train a linear regression model to fit both data sets (CSIRO & NOAA) to second and third degree polynomial equations which produced the most favorable outcomes. I plotted each of the data sets to each of the polynomial equations and determined a range for possible sea levels in the year 2050. I found that the CSIRO data fit a third degree polynomial best and the CSIRO data fit a second degree polynomial best. 
